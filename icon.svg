@@ -1,0 +1,25 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle with gradient -->
+  <circle cx="32" cy="32" r="32" fill="url(#gradient)"/>
+  
+  <!-- DevOps infinity symbol -->
+  <path d="M20 32C20 26.4772 24.4772 22 30 22H34C39.5228 22 44 26.4772 44 32C44 37.5228 39.5228 42 34 42H30C24.4772 42 20 37.5228 20 32Z" fill="white" fill-opacity="0.2"/>
+  
+  <!-- Left circle (Dev) -->
+  <circle cx="26" cy="32" r="6" fill="white" fill-opacity="0.9"/>
+  
+  <!-- Right circle (Ops) -->
+  <circle cx="38" cy="32" r="6" fill="white" fill-opacity="0.9"/>
+  
+  <!-- Center connection -->
+  <rect x="26" y="30" width="12" height="4" fill="white" fill-opacity="0.6"/>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="64" y2="64" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#8B5CF6"/>
+      <stop offset="50%" stop-color="#3B82F6"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+</svg>
